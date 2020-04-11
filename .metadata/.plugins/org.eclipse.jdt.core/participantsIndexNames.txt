@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2100917534.index
+/lecture1/src
+/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1349239016.index
+/lecture1/src
+/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3378680146.index
+/lecture1/src
+/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/464850264.index
+/helloJSP/src
+/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/249706736.index
+/lecture1/src
+/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3312608928.index
+/lecture1/src
+/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3800215708.index
+/lecture1/src

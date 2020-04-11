@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.jdt.core
+1012268485.index
+628738009.index
+2793432285.index
+3535692261.index
+3693014025.index
+3653632453.index
