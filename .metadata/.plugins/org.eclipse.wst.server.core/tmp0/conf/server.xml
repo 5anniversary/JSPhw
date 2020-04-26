@@ -153,7 +153,9 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/helloJSP" path="/helloJSP" reloadable="true" source="org.eclipse.jst.jee.server:helloJSP"/><Context docBase="/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/html1" path="/html1" reloadable="true" source="org.eclipse.jst.jee.server:html1"/><Context docBase="/Users/user/Desktop/school/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/lecture1" path="/lecture1" reloadable="true" source="org.eclipse.jst.jee.server:lecture1"/></Host>
+      <Context docBase="/Users/user/Desktop/Programming/school/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/user/Desktop/Programming/school/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/lecture1" path="/lecture1" reloadable="true" source="org.eclipse.jst.jee.server:lecture1">
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="10" maxTotal="50" maxWaitMillis="10000" name="jdbc/student1" password="test123" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/student1?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=Asia/Seoul" username="user1"/>
+</Context></Host>
     </Engine>
   </Service>
 </Server>

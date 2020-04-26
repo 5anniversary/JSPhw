@@ -1,0 +1,13 @@
+package lecture1.jdbc1;
+
+public class User {
+	int id;
+	String userid;
+	String password;
+	String name;
+	String email;
+	int departmentId;
+	String departmentName;
+	boolean enabled;
+	String userType;
+}
