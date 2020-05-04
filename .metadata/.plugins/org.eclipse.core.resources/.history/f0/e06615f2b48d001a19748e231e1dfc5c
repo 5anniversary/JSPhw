@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+tr, td {
+	border: 1px solid;
+	padding: 5px;
+}
+</style>
+</head>
+<body>
+<>
+	<div class="container">
+		<form action="text1action.jsp" method="post">
+			<div>
+				<input type="text" name="number" value="0" />
+			</div>
+			<button type="submit" name="cmd" value="ok">단</button>
+		</form>
+		<table>
+			<%for (int i = 1; i < 10; i++) {%>
+			<tr>
+				<% for (int j = 2; j < 3; j++) { %>
+				<td>
+					<% out.print(j + " x " + i + " = " + (i * j)); %>
+				</td>
+				<%} %>
+			</tr>
+			<%}%>
+		</table>
+	</div>
+</body>
+</html>
