@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 table {
 	border: 1px solid;
@@ -19,12 +20,12 @@ tr, td {
 <body>
 	<%
 		int num = 0;
-	String str = "";
-	str = request.getParameter("number");
-	/* num = Integer.parseInt(str); */
+		String str = "";
+		str = request.getParameter("number");
+		num = Integer.parseInt(str);
 	%>
 	<div class="container">
-		<form action="text1action.jsp" method="get">
+		<form action="mid1.jsp" method="get">
 			<div>
 				<input type="text" name="number" value="0" />
 				<button type="submit" name="cmd" value="ok">단</button>
