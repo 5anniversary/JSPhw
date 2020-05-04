@@ -10,16 +10,24 @@
 	<%
 		String value = "one";
 		String str = "";
-		String checked = "checked";
+		int checked = 0;
 		str = request.getParameter("number");
 		if (str != null)
 			value = str;
+		
+		if (str == "one"){
+			checked = 0;
+		}else if (str == "two"){
+			checked = 1;
+		}else if (str == "three"){
+			checked = 2;
+		}
 	%>
 	<div class="container">
 		<form action="mid2.jsp" method="get">
-			<input type="radio" name="number" value="one" <% if(value=="one") {out.print(checked);} %>   >one
-			<input type="radio" name="number" value="two"  <% if(value=="two") {out.print(checked);} %> >two
-			<input type="radio" name="number" value="three"  <% if(value=="three") {out.print(checked);} %>>three
+			<input type="radio" name="number" value="one" <%= checked == 0 ? "checked" : "" %>   >one
+			<input type="radio" name="number" value="two"  <%= checked == 1 ? "checked" : "" %> >two
+			<input type="radio" name="number" value="three"  <%= checked == 2 ? "checked" : "" %>>three
 			<div>
 				<input type="text" value="<%=value %>" />
 			</div>
