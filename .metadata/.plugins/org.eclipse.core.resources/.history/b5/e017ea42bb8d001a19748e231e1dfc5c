@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+	<%
+		String value = "one";
+		String str = "";
+		str = request.getParameter("number");
+		if (str != null)
+			value = str;
+	%>
+	<label>이름</label>
+	<form action="mid3.jsp" method="get">
+		<div>
+		<input type="text" name="number" value="" />
+		</div>
+		<label>성</label>
+		<input type="radio" name="number" value="one"  <% if(value=="one") {out.print("checked");} %>   >one
+		<input type="radio" name="number" value="two"  <% if(value=="two") {out.print("checked");} %> >two
+	</form>
+</body>
+</html>
