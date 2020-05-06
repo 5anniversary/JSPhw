@@ -8,7 +8,7 @@ public class Book {
 	int price;
 	String categoryName;
 	String publisher;
-
+	
 	public int getId() {
 		return id;
 	}
