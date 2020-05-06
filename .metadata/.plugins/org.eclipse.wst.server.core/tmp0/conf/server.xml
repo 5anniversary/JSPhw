@@ -155,6 +155,9 @@
 
       <Context docBase="/Users/user/Desktop/Programming/school/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/user/Desktop/Programming/school/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/lecture1" path="/lecture1" reloadable="true" source="org.eclipse.jst.jee.server:lecture1">
 	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="10" maxTotal="50" maxWaitMillis="10000" name="jdbc/student1" password="test123" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/student1?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=Asia/Seoul" username="user1"/>
+
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="10" maxTotal="50" maxWaitMillis="10000" name="jdbc/book" password="test123" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/book?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC" username="user1"/>
+		
 </Context></Host>
     </Engine>
   </Service>
