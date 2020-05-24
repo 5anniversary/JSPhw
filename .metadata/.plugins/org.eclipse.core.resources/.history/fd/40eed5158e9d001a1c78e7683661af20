@@ -1,0 +1,5 @@
+package lecture1.jdbc2;
+
+public class Student {
+
+}

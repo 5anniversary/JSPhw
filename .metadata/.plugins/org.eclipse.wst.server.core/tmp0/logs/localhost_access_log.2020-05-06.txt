@@ -36,3 +36,6 @@
 0:0:0:0:0:0:0:1 - - [06/May/2020:12:44:58 +0900] "GET /lecture1/test/bookList2.jsp?srchText= HTTP/1.1" 200 7324
 0:0:0:0:0:0:0:1 - - [06/May/2020:12:45:01 +0900] "GET /lecture1/test/bookList2.jsp?srchText= HTTP/1.1" 200 7324
 0:0:0:0:0:0:0:1 - - [06/May/2020:12:45:23 +0900] "GET /lecture1/test/bookList2.jsp?srchText=%ED%99%8D%EA%B8%B8%EB%8F%99 HTTP/1.1" 200 2348
+0:0:0:0:0:0:0:1 - - [06/May/2020:12:45:28 +0900] "GET /lecture1/test/bookList2.jsp?srchText= HTTP/1.1" 200 7324
+0:0:0:0:0:0:0:1 - - [06/May/2020:12:46:09 +0900] "GET /lecture1/test/bookList1.jsp HTTP/1.1" 200 7095
+0:0:0:0:0:0:0:1 - - [06/May/2020:12:46:23 +0900] "GET /lecture1/test/bookList2.jsp?srchText=%ED%99%8D%EA%B8%B8%EB%8F%99 HTTP/1.1" 200 2348
