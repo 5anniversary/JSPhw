@@ -10,7 +10,6 @@ public class ProfessorService {
 		if (StringUtil.isEmptyOrBlank(professor.getProfessorName()))
 			return 이름_필수;
 		Professor professor1 = ProfessorDAO.findById(professor.getId());
-		System.out.print(professor);
 		if (professor1 != null && professor1.getId() == professor.getId())
 			return ID_중복;
 		return null;

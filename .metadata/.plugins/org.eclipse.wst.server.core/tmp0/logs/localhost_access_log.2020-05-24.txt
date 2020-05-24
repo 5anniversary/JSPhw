@@ -134,3 +134,15 @@
 0:0:0:0:0:0:0:1 - - [24/May/2020:21:01:55 +0900] "GET /lecture1/res/common.css HTTP/1.1" 404 781
 0:0:0:0:0:0:0:1 - - [24/May/2020:21:01:57 +0900] "POST /lecture1/jdbc2/professorCreate.jsp HTTP/1.1" 200 1834
 0:0:0:0:0:0:0:1 - - [24/May/2020:21:01:57 +0900] "GET /lecture1/res/common.css HTTP/1.1" 404 781
+127.0.0.1 - - [24/May/2020:21:07:43 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:07:47 +0900] "GET /lecture1/jdbc2/professorCreate.jsp HTTP/1.1" 200 1737
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:07:47 +0900] "GET /lecture1/res/common.css HTTP/1.1" 404 781
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:07:53 +0900] "POST /lecture1/jdbc2/professorCreate.jsp HTTP/1.1" 200 1834
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:07:53 +0900] "GET /lecture1/res/common.css HTTP/1.1" 404 781
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:13:11 +0900] "GET /lecture1/jdbc2/professorCreate.jsp HTTP/1.1" 200 1737
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:13:11 +0900] "GET /lecture1/res/common.css HTTP/1.1" 404 781
+127.0.0.1 - - [24/May/2020:21:13:54 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:13:56 +0900] "GET /lecture1/jdbc2/professorCreate.jsp HTTP/1.1" 200 1737
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:13:56 +0900] "GET /lecture1/res/common.css HTTP/1.1" 404 781
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:14:23 +0900] "GET /lecture1/jdbc2/professorCreate.jsp HTTP/1.1" 200 1737
+0:0:0:0:0:0:0:1 - - [24/May/2020:21:14:23 +0900] "GET /lecture1/res/common.css HTTP/1.1" 200 1340
